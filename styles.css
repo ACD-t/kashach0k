@@ -621,15 +621,16 @@ input {
     width: calc(100% - 32px);
   }
 
-  .converter-form {
-    width: 100%;
-  }
-
-  .result-card {
-    width: calc(100% - 40px);
-  }
-
   .mobile-menu {
-    width: calc(100% - 64px);
+    width: calc(100% - 32px);
+  }
+
+  .amount-field input {
+    max-width: calc(100% - 76px);
+    font-size: 46px;
+  }
+
+  .currency {
+    font-size: 46px;
   }
 }
