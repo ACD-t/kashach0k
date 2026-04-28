@@ -450,7 +450,7 @@ input {
     width: calc(100% - 40px);
     max-width: 430px;
     min-height: auto;
-    margin-top: 8px;
+    margin-top: 40px;
     padding: 0;
     background: transparent;
   }
