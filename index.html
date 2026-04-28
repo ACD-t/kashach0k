@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кэшач0к — конвертер трат</title>
+    <meta
+      name="description"
+      content="Конвертер проекта Кэшач0к: переведи трату в понятные бытовые единицы."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="header-nav header-nav--left" aria-label="Основная навигация">
+        <a class="nav-link nav-link--active" href="#converter">Конвертер</a>
+        <a class="nav-link" href="#tips">Советы</a>
+        <a class="nav-link" href="#predictions">Предсказания</a>
+        <a class="nav-link" href="#about">О проекте</a>
+      </nav>
+
+      <a class="logo" href="#converter" aria-label="Кэшач0к, на главную">
+        <img src="./images/logo.svg" alt="кэшач0к" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <span>кэшач0к</span>
+      </a>
+
+      <nav class="header-nav header-nav--right" aria-label="Дополнительная навигация">
+        <a class="small-button" href="#contacts">Контакты</a>
+        <a class="small-button" href="#donate">Помочь донатом</a>
+      </nav>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#converter">Конвертер</a>
+      <a href="#tips">Советы</a>
+      <a href="#predictions">Предсказания</a>
+      <a href="#about">О проекте</a>
+      <a class="mobile-menu__accent" href="#contacts">Контакты</a>
+      <a class="mobile-menu__accent" href="#donate">Помочь проекту</a>
+    </div>
+
+    <main>
+      <section class="converter-shell" id="converter" aria-labelledby="converterTitle">
+        <div class="converter-card">
+          <div class="mobile-title">
+            <h1>Конвертер</h1>
+            <p>Переведи трату в понятные единицы</p>
+          </div>
+
+          <h2 class="desktop-title" id="converterTitle">Переведи трату<br />в понятные единицы</h2>
+
+          <form class="converter-form" id="converterForm">
+            <label class="field-label" for="amount">Сумма</label>
+            <div class="amount-field">
+              <input
+              id="amount"
+              name="amount"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              placeholder=""
+              aria-label="Введите сумму в рублях"
+              />
+                <span class="currency" aria-hidden="true">₽</span>
+              </div>
+
+            <fieldset class="units-fieldset">
+              <legend>Во что конвертируем</legend>
+              <div class="units-row" id="unitsRow"></div>
+            </fieldset>
+
+            <button class="convert-button" type="submit" aria-label="Посчитать">
+              <span class="convert-arrow">→</span>
+            </button>
+          </form>
+
+          <section class="result-card" id="resultCard" aria-live="polite">
+            <p class="result-placeholder">Результат появится тут</p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
