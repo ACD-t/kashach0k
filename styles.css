@@ -465,6 +465,7 @@ input {
   .mobile-title {
     display: block;
     margin: 0 0 16px;
+    text-align: center;
   }
 
   .mobile-title h1 {
@@ -480,6 +481,7 @@ input {
     color: var(--muted);
     font-size: 16px;
     line-height: 1;
+    text-align: center;
   }
 
   .converter-form {
