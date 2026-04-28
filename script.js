@@ -75,7 +75,7 @@ function updateAmountView() {
   amountInput.value = rawNumber ? formatNumber(Number(rawNumber)) : "";
 
   amountInput.style.width = rawNumber
-    ? `${amountInput.value.length + 1.5}ch`
+    ? `${amountInput.value.length + 0.5}ch`
     : "1ch";
 
   amountField.classList.toggle("has-value", Boolean(rawNumber));
