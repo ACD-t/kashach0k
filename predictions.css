@@ -163,7 +163,7 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 220px;
+  min-height: 320px;
 }
 
 .placeholder-carousel {
@@ -171,9 +171,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 650px;
+  width: 900px;
   max-width: 100%;
-  height: 220px;
+  height: 320px;
 }
 
 .placeholder-card {
