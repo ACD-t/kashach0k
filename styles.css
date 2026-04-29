@@ -377,6 +377,7 @@ input {
 
   body {
     overflow-x: hidden;
+    background: #f8faff;
   }
 
   .site-header {
@@ -410,6 +411,7 @@ input {
     position: absolute;
     right: 0;
     display: block;
+    background: #eceef4;
   }
 
   .mobile-menu {
