@@ -358,14 +358,14 @@ button {
     min-height: calc(100vh - 134px);
   }
 
-  .mobile-page-title {
-    display: block;
-    margin: 0 0 22px;
-    color: var(--blue);
-    font-size: 40px;
-    line-height: 1;
-    text-align: center;
-  }
+  ..mobile-page-title {
+  display: block;
+  margin: 0 0 16px;
+  color: var(--blue);
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+}
 
   .folders-grid {
     display: grid;
@@ -428,8 +428,8 @@ button {
   }
 
   .mobile-page-title {
-    font-size: 36px;
-  }
+  font-size: 24px;
+}
 
   .folders-grid {
     gap: 20px 12px;
