@@ -55,8 +55,8 @@ input {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 20px;
-  font-size: 22px;
+  gap: 16px;
+  font-size: 20px;
 }
 
 .header-nav--right {
