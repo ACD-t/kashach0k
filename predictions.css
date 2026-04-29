@@ -484,6 +484,7 @@ button {
 
   .predictions-card.has-result .prediction-stage {
     min-height: auto;
+    margin-top: 10px;
   }
 
   .predictions-card.has-result .prediction-result {
