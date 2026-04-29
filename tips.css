@@ -407,7 +407,7 @@ button {
   .download-all {
     width: 100%;
     min-height: 40px;
-    margin-top: auto;
+    margin-top: 90px;
     padding: 0 24px;
     border-radius: 999px;
     font-size: 20px;
