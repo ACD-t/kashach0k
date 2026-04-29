@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кэшач0к — мини-советы</title>
+    <meta
+      name="description"
+      content="Мини-советы проекта Кэшач0к: скачай PDF-инструкции по финансам."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tips.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="header-nav header-nav--left" aria-label="Основная навигация">
+        <a class="nav-link" href="./index.html">Конвертер</a>
+        <a class="nav-link nav-link--active" href="./tips.html">Советы</a>
+        <a class="nav-link" href="#predictions">Предсказания</a>
+        <a class="nav-link" href="https://cashachok.tilda.ws">О проекте</a>
+      </nav>
+
+      <a class="logo" href="./index.html" aria-label="Кэшач0к, на главную">
+        <img
+          src="./images/logo.svg"
+          alt="кэшач0к"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span>кэшач0к</span>
+      </a>
+
+      <nav class="header-nav header-nav--right" aria-label="Дополнительная навигация">
+        <a class="small-button" href="https://t.me/cashach0k/3">Контакты</a>
+        <a class="small-button" href="#donate">Помочь донатом</a>
+      </nav>
+
+      <button
+        class="burger"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="./index.html">Конвертер</a>
+      <a class="mobile-menu__accent" href="./tips.html">Советы</a>
+      <a href="#predictions">Предсказания</a>
+      <a href="https://cashachok.tilda.ws">О проекте</a>
+      <a class="mobile-menu__accent" href="https://t.me/cashach0k/3">Контакты</a>
+      <a class="mobile-menu__accent" href="#donate">Помочь проекту</a>
+    </div>
+
+    <main>
+      <section class="tips-shell" id="tips" aria-labelledby="tipsTitle">
+        <div class="tips-card">
+          <h1 class="mobile-page-title" id="tipsTitle">Мини-советы</h1>
+
+          <div class="folders-grid" aria-label="PDF-инструкции">
+            <a
+              class="folder-card folder-card--left"
+              href="./files/start.pdf"
+              download="s-chego-nachat-finansovye-instrumenty.pdf"
+              aria-label="Скачать PDF: С чего начать? Финансовые инструменты без риска"
+            >
+              <img src="./images/folder-start.png" alt="" />
+              <span class="folder-fallback">
+                <span>С чего начать?<br />Финансовые инструменты<br />без риска</span>
+                <b>Скачать</b>
+              </span>
+            </a>
+
+            <a
+              class="folder-card folder-card--center"
+              href="./files/plan.pdf"
+              download="finansovy-plan.pdf"
+              aria-label="Скачать PDF: Как начать выстраивать финансовый план?"
+            >
+              <img src="./images/folder-plan.png" alt="" />
+              <span class="folder-fallback">
+                <span>Как начать выстраивать<br />финансовый план?</span>
+                <b>Скачать</b>
+              </span>
+            </a>
+
+            <a
+              class="folder-card folder-card--right"
+              href="./files/salary.pdf"
+              download="delim-zarplatu-gramotno.pdf"
+              aria-label="Скачать PDF: Делим зарплату грамотно"
+            >
+              <img src="./images/folder-salary.png" alt="" />
+              <span class="folder-fallback">
+                <span>Делим зарплату грамотно</span>
+                <b>Скачать</b>
+              </span>
+            </a>
+          </div>
+
+          <a class="download-all" href="./files/cashachok-tips.zip" download="cashachok-mini-sovety.zip">
+            Хочу скачать все!
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./tips.js"></script>
+  </body>
+</html>
