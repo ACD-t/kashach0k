@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кэшач0к — предсказания</title>
+    <meta
+      name="description"
+      content="Предсказания проекта Кэшач0к: получи случайную карточку-предсказание."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./predictions.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="header-nav header-nav--left" aria-label="Основная навигация">
+        <a class="nav-link" href="./index.html">Конвертер</a>
+        <a class="nav-link" href="./tips.html">Советы</a>
+        <a class="nav-link nav-link--active" href="./predictions.html">Предсказания</a>
+        <a class="nav-link" href="https://cashachok.tilda.ws">О проекте</a>
+      </nav>
+
+      <a class="logo" href="./index.html" aria-label="Кэшач0к, на главную">
+        <img
+          src="./images/logo.svg"
+          alt="кэшач0к"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span>кэшач0к</span>
+      </a>
+
+      <nav class="header-nav header-nav--right" aria-label="Дополнительная навигация">
+        <a class="small-button" href="https://t.me/cashach0k/3">Контакты</a>
+        <a class="small-button" href="#donate">Помочь донатом</a>
+      </nav>
+
+      <button
+        class="burger"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="./index.html">Конвертер</a>
+      <a href="./tips.html">Советы</a>
+      <a href="./predictions.html">Предсказания</a>
+      <a href="https://cashachok.tilda.ws">О проекте</a>
+      <a class="mobile-menu__accent" href="https://t.me/cashach0k/3">Контакты</a>
+      <a class="mobile-menu__accent" href="#donate">Помочь проекту</a>
+    </div>
+
+    <main>
+      <section class="predictions-shell" id="predictions" aria-labelledby="predictionsTitle">
+        <div class="predictions-card">
+          <div class="mobile-title">
+            <h1>Предсказания</h1>
+            <p>Что тебя ждет в этом году?</p>
+          </div>
+
+          <h1 class="desktop-title" id="predictionsTitle">Предсказания</h1>
+
+          <div class="prediction-stage" id="predictionStage" aria-live="polite">
+            <div class="placeholder-carousel" id="placeholderCarousel" aria-hidden="false">
+              <img class="placeholder-card placeholder-card--tiny-left" src="./images/prediction-placeholder.png" alt="" />
+              <img class="placeholder-card placeholder-card--left" src="./images/prediction-placeholder.png" alt="" />
+              <img class="placeholder-card placeholder-card--center" src="./images/prediction-placeholder.png" alt="Заглушка карточки предсказания" />
+              <img class="placeholder-card placeholder-card--right" src="./images/prediction-placeholder.png" alt="" />
+              <img class="placeholder-card placeholder-card--tiny-right" src="./images/prediction-placeholder.png" alt="" />
+            </div>
+
+            <img
+              class="prediction-result"
+              id="predictionResult"
+              src=""
+              alt="Карточка предсказания"
+              aria-hidden="true"
+            />
+          </div>
+
+          <button class="prediction-button" id="predictionButton" type="button">
+            Получить предсказание
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./predictions.js"></script>
+  </body>
+</html>
