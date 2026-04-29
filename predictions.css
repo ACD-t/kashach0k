@@ -187,8 +187,8 @@ button {
 
 .placeholder-card--center {
   z-index: 5;
-  width: 190px;
-  height: 190px;
+  width: 320px;
+  height: 320px;
   opacity: 1;
   filter: none;
 }
@@ -196,37 +196,36 @@ button {
 .placeholder-card--left,
 .placeholder-card--right {
   z-index: 4;
-  width: 130px;
-  height: 130px;
+  width: 230px;
+  height: 230px;
   opacity: 0.5;
   filter: blur(0.2px);
 }
 
 .placeholder-card--left {
-  transform: translateX(-160px);
+  transform: translateX(-310px);
 }
 
 .placeholder-card--right {
-  transform: translateX(160px);
+  transform: translateX(310px);
 }
 
 .placeholder-card--tiny-left,
 .placeholder-card--tiny-right {
   z-index: 3;
-  width: 86px;
-  height: 86px;
+  width: 160px;
+  height: 160px;
   opacity: 0.25;
   filter: blur(0.5px);
 }
 
 .placeholder-card--tiny-left {
-  transform: translateX(-275px);
+  transform: translateX(-560px);
 }
 
 .placeholder-card--tiny-right {
-  transform: translateX(275px);
+  transform: translateX(560px);
 }
-
 .placeholder-carousel.is-spinning .placeholder-card--center {
   animation: centerPulse 0.42s ease-in-out infinite alternate;
 }
