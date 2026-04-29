@@ -488,6 +488,10 @@ button {
 
   .predictions-card.has-result .prediction-result {
     position: static;
+    display: block;
+    width: min(100%, 330px);
+    margin: 0 auto;
+    border-radius: 30px;
   }
 
   .prediction-button {
