@@ -223,6 +223,7 @@ button {
 
   body {
     overflow-x: hidden;
+    background: #f8faff;
   }
 
   .site-header {
@@ -256,6 +257,7 @@ button {
     position: absolute;
     right: 0;
     display: block;
+     background: #eceef4;
   }
 
   .mobile-menu {
