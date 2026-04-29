@@ -7,6 +7,10 @@ const predictionCards = [
   "./images/prediction-6.png",
   "./images/prediction-7.png",
   "./images/prediction-8.png",
+  "./images/prediction-9.png",
+   "./images/prediction-10.png",
+   "./images/prediction-11.png",
+   "./images/prediction-12.png",
 ];
 
 const burger = document.querySelector(".burger");
