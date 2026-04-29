@@ -319,7 +319,7 @@ button {
 
   body {
     overflow-x: hidden;
-    background: #f8faff;
+    background: #eceef4;
   }
 
   .site-header {
@@ -499,6 +499,8 @@ button {
     border-radius: 999px;
     font-size: 22px;
     text-align: center;
+    background: #E5E9F3;
+    
   }
 
   .predictions-card.has-result .prediction-button {
