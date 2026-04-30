@@ -152,6 +152,9 @@ button {
 .mobile-page-title {
   display: none;
 }
+.mobile-page-subtitle {
+  display: none;
+}
 
 .folders-grid {
   position: relative;
