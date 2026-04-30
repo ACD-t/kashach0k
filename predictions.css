@@ -357,7 +357,7 @@ button {
 
   .mobile-menu {
     position: absolute;
-    top: 92px;
+    top: 82px;
     left: 50%;
     z-index: 8;
     display: flex;
