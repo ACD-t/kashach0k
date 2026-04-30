@@ -119,7 +119,7 @@ button {
 }
 
 .burger.is-open {
-  background: var(--blue);
+  background: var(--light);
 }
 
 .burger.is-open span {
