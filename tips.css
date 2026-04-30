@@ -364,22 +364,23 @@ button {
   }
 
   .mobile-page-title {
-    display: block;
-    margin: 0 0 8px;
-    color: var(--blue);
-    font-size: 32px;
-    line-height: 1;
-    text-align: center;
-  }
+  display: block;
+  margin: 0 0 6px;
+  color: var(--blue);
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+}
 
-  .mobile-page-subtitle {
-    display: block;
-    margin: 0 0 42px;
-    color: var(--muted);
-    font-size: 24px;
-    line-height: 1;
-    text-align: center;
-  }
+.mobile-page-subtitle {
+  display: block;
+  width: min(100%, 300px);
+  margin: 0 auto 32px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+}
 
   .folders-grid {
     display: grid;
@@ -447,14 +448,14 @@ button {
     width: calc(100% - 32px);
   }
 
-  .mobile-page-title {
-    font-size: 30px;
-  }
+ .mobile-page-title {
+  font-size: 24px;
+}
 
-  .mobile-page-subtitle {
-    margin-bottom: 36px;
-    font-size: 22px;
-  }
+.mobile-page-subtitle {
+  margin-bottom: 32px;
+  font-size: 16px;
+}
 
   .folders-grid {
     gap: 20px 12px;
