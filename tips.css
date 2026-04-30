@@ -321,7 +321,7 @@ button {
     max-width: 330px;
     padding: 28px 32px 32px;
     border-radius: 16px;
-    background: var(--light);
+    background:  #F8FAFF;
     font-size: 24px;
     transform: translateX(-50%) translateY(-12px);
     opacity: 0;
