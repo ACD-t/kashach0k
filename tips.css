@@ -427,7 +427,7 @@ button {
   .download-all {
     width: 100%;
     min-height: 78px;
-    margin-top: auto;
+    margin-top: 80px;
     padding: 0 24px;
     border-radius: 999px;
     background: #eceef4;
